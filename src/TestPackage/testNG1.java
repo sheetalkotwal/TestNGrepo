@@ -12,6 +12,7 @@ public class testNG1 {
 	public void Demo()
 	{
 		System.out.println("first TestNG test case");
+		System.out.println("first TestNG test case");
 		
 	}
 
