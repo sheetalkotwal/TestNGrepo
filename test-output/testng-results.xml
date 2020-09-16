@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+    <groups>
+      <group name="smoke">
+        <method signature="estNG4.Memo()[pri:0, instance:TestPackage.estNG4@4f970963]" name="Memo" class="TestPackage.estNG4"/>
+        <method signature="testNG1.Demo()[pri:0, instance:TestPackage.testNG1@65e2dbf3]" name="Demo" class="TestPackage.testNG1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Sheetal" duration-ms="78" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+      <class name="TestPackage.estNG4">
+        <test-method status="PASS" signature="Memo()[pri:0, instance:TestPackage.estNG4@4f970963]" name="Memo" duration-ms="3" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Memo -->
+        <test-method status="PASS" signature="my(java.lang.String)[pri:0, instance:TestPackage.estNG4@4f970963]" name="my" duration-ms="2" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my -->
+      </class> <!-- TestPackage.estNG4 -->
+      <class name="TestPackage.testNG1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:TestPackage.testNG1@65e2dbf3]" name="Demo" duration-ms="6" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:TestPackage.testNG1@65e2dbf3]" name="Demo1" duration-ms="2" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- TestPackage.testNG1 -->
+      <class name="TestPackage.testNG2">
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.testNG2@2b9627bc]" name="Demo" duration-ms="3" started-at="2020-07-22T17:50:18 PDT" data-provider="getData" finished-at="2020-07-22T17:50:18 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.testNG2@2b9627bc]" name="Demo" duration-ms="2" started-at="2020-07-22T17:50:18 PDT" data-provider="getData" finished-at="2020-07-22T17:50:18 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Fan()[pri:0, instance:TestPackage.testNG2@2b9627bc]" name="Fan" duration-ms="1" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fan -->
+      </class> <!-- TestPackage.testNG2 -->
+    </test> <!-- Sheetal -->
+    <test name="poan" duration-ms="9" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+      <class name="TestPackage.testNG2">
+        <test-method status="PASS" signature="Dan()[pri:0, instance:TestPackage.testNG2@2b9627bc]" name="Dan" is-config="true" duration-ms="10" started-at="2020-07-22T17:50:17 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dan -->
+      </class> <!-- TestPackage.testNG2 -->
+      <class name="TestPackage.testNG3">
+        <test-method status="PASS" signature="Car()[pri:0, instance:TestPackage.testNG3@4bbfb90a]" name="Car" duration-ms="2" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car -->
+        <test-method status="PASS" signature="Home2()[pri:0, instance:TestPackage.testNG3@4bbfb90a]" name="Home2" is-config="true" duration-ms="1" started-at="2020-07-22T17:50:18 PDT" finished-at="2020-07-22T17:50:18 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home2 -->
+      </class> <!-- TestPackage.testNG3 -->
+    </test> <!-- poan -->
+  </suite> <!-- Suite -->
+</testng-results>
